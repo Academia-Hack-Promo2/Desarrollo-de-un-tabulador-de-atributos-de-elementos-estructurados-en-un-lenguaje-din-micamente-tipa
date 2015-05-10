@@ -32,7 +32,6 @@ function generarThead(i){
             values.push(personas[key][i]);
         }
     }
-    //console.log(keys);
 }
 
 function generarTabla(i){
@@ -42,7 +41,6 @@ function generarTabla(i){
             values.push(personas[i][key]);
         }
     }
-    //console.log(values);
 }
 generarThead(0)
 definirEstructura();
@@ -109,4 +107,3 @@ celda.appendChild(texto);
 var celda = linea.insertCell(3);
 var texto = document.createTextNode(values[7]);
 celda.appendChild(texto);
-
